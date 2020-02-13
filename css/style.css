@@ -1,0 +1,724 @@
+============== Common CSS Start =============*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+  color: #000;
+}
+a:hover{
+	text-decoration: none;
+  color: #000;
+}
+img{
+	vertical-align: middle;
+}
+p{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #f9f9f9;
+  margin-bottom: 0px;
+}
+h3{
+  font-size: 36px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 800;
+
+}
+h4{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+h6{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #f9f9f9;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+i{
+	color: #f9f9f9;
+}
+/*============== Common CSS End =============*/
+/*============== Top-Bar Part Start ===========*/
+#top-bar{
+	background: #0E6835;
+	width: 100%;
+  padding: 5px 0;
+}
+.top-bar-left p{
+	display: inline-block;
+}
+
+.top-bar-right i{
+	font-size: 12px;
+	padding: 7px 10px;
+	color: #D39C3F;
+	border-radius: 50%;
+	margin-left: 10px;
+	transition: all linear .4s;
+}
+.top-bar-right i:hover{
+	background: #D39C3F;
+	color: #ffff;
+}
+#top-bar marquee{
+  color: #f9f9f9;
+  font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+#top-bar marquee i{
+  text-decoration: underline;
+}
+/*============ Top-Bar Part End ==============*/
+/*=================================== Menu part Start ==============================*/
+.navbar-expand-lg .navbar-nav {
+  border-right: 1px solid #A5BE6A;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+ul li {
+    position: relative;
+    cursor: pointer;
+}
+
+ul li ul:hover li a {
+    color: #fff;
+    display: block;
+
+}
+
+ul li ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+ul li ul li {
+    position: absolute;
+    display: none;
+    width: 200px;
+    z-index: 9;
+}
+
+ul li:hover ul li {
+    display: block;
+    color: #fff;
+    left: 0px;
+}
+
+.drop-down{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    background: transparent;
+}
+.student{
+    top: 23px;
+    background: #0E6835;
+    padding:5px 0 5px 20px;
+    border-top: 5px solid #A5BE6A;
+    border-left: 1px solid #A5BE6A;
+    border-right: 1px solid #A5BE6A;
+    border-bottom: 1px solid #A5BE6A;
+    width:100%;
+}
+
+.teacher{
+    top: 61px;
+    background: #0E6835;
+    padding:5px 0 5px 20px;
+    width:100%;
+    border: 1px solid #A5BE6A;
+}
+.computer {
+  top: 95px;
+  background: #0E6835;
+  width: 100%;
+  border: 1px solid #A5BE6A;
+  padding:5px 14px 5px 20px;
+}
+.language {
+  top: 130px;
+  background: #0E6835;
+  width: 100%;
+  border: 1px solid #A5BE6A;
+  padding:5px 14px 5px 20px;
+}
+.navbar-collapse p a {
+  color: #ffff;
+  background: #A5BE6A;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-left: 25px;
+  padding: 10px 15px;
+  border-radius: 2px;
+  transition: all linear.4s;
+}
+.navbar-collapse p a:hover{
+  background: #0E6835;
+}
+/*============ Manu-Bar Part End =============*/
+.slider-item{
+    background-size: cover!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+.slider-item:before{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 45, 72, 0.88);
+  }
+.banner-text{
+    padding: 80px 0 80px 75px;
+  }
+.banner-text h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+  }
+.banner-text h1 span{
+    color: #A5BE6A;
+  }
+.banner-text p{
+  padding: 10px 0 20px 0;
+  line-height: 26px;
+}
+.banner-text a{
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #A5BE6A;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all linear.4s;
+}
+.banner-text a:hover{
+  background: #0E6835;
+}
+#getting-started{
+   display: flex;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+    padding-top: 10px;
+    width: 100%;
+}
+#getting-started h6{
+    font-family: 'Roboto', sans-serif;
+}
+.days,.hours,.minuit,.seconds{
+  margin-right: 0px;
+  font-family: 'Cute Font', cursive;
+  background: #A5BE6A;
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 25px;
+}
+h5 {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #f9f9f9;
+  margin-bottom: 0px;
+  display: inline-block;
+  color: #fff;
+  padding: 5px 38px 38px 38px;
+}
+/*================ About Part Start =================*/
+#about{
+  padding: 80px 0;
+}
+.about-img{
+  position: relative;
+  overflow: hidden;
+}
+.about-img img{
+  transition: all linear.4s;
+}
+.about-img img:hover{
+  transform: scale(1.2);
+}
+/*.about-img:after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(42, 45, 72, 0.48);
+ opacity: 0;
+ transition: all linear.4s;
+}
+.about-img:hover:after{
+  opacity: 1;
+}*/
+.heder-text{
+  position: relative;
+}
+.heder-text span{
+  color: #A5BE6A;
+}
+.heder-text:after{
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 0;
+  width: 20%;
+  height: 5%;
+  background: #A5BE6A;
+}
+.heder-text p{
+  color: #444;
+  padding: 20px 0;
+}
+.card{
+  margin: 5px 0;
+  border:0;
+}
+.card-header {
+  padding: 0;   
+  background-color: rgba(0,0,0,.5);
+}
+.card .btn-link{
+  width: 100%;
+  text-align: left;
+  background: #0E6835;
+  color: #fff;
+}
+.card .btn-link:hover{
+  text-decoration: none;
+  background: #A5BE6A;
+}
+.btn:not(:disabled):not(.disabled).active, 
+.btn:not(:disabled):not(.disabled):active {
+  background: #0E6835;
+  text-decoration: none;
+}
+.card .btn-link:focus{
+  text-decoration: none;
+}
+.card .btn-link.collapsed {
+  background: #A5BE6A;
+  text-decoration: none;
+}
+.card .btn i{
+  float: right;
+}
+.card .btn-link i{
+  transform: rotate(90deg);
+}
+.card .btn-link.collapsed i{
+  transform: rotate(0deg);
+}
+/*=================== counter part Start ==================*/
+#counter {
+    position: relative;
+}
+
+#counter:after {
+    padding-top: 100px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.89);
+}
+
+.counter-z {
+    position: relative;
+    z-index: 999;
+}
+
+.counter-img {
+    background: url(../images/counter/counter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counter-mane {
+    padding: 20px 0;
+}
+.counter-mane span {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.counter-mane h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+/*==================== Service Part Start =======================*/
+#service{
+  padding: 80px 0;
+}
+.hader-text{
+  position: relative;
+  text-transform: uppercase;
+}
+.hader-text span{
+  color: #A5BE6A;
+}
+.hader-text::after {
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 30%;
+  width: 24%;
+  height: 5%;
+  background: #A5BE6A;
+}
+.hader-text p{
+  color: #444;
+  padding: 20px 0;
+}
+.cards{
+  margin: 50px 0 0 0;
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: all linear.4s;
+}
+.cards:hover{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.cards i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 9;
+  opacity: 0;
+  transition: all linear.4s;
+  cursor: pointer;
+}
+.cards .card-img-top{
+  position: relative;
+  background: url(../images/service/class.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.cards .card-img-top:after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  transition: all linear.4s;
+  opacity: 0;
+}
+.cards:hover .card-img-top:after{
+  opacity: 1;
+  width: 100%;
+}
+.cards .card-img-top2{
+  position: relative;
+  background: url(../images/service/cho.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.cards .card-img-top2:after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  transition: all linear.4s;
+  opacity: 0;
+}
+.cards:hover .card-img-top2:after{
+  opacity: 1;
+  width: 100%;
+}
+.cards .card-img-top3{
+  position: relative;
+  background: url(../images/service/computer-lab.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.cards .card-img-top3:after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  transition: all linear.4s;
+  opacity: 0;
+}
+.cards:hover .card-img-top3:after{
+  opacity: 1;
+  width: 100%;
+}
+.cards .card-img-top4{
+  position: relative;
+  background: url(../images/service/lng.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.cards .card-img-top4:after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  transition: all linear.4s;
+  opacity: 0;
+}
+.cards:hover .card-img-top4:after{
+  opacity: 1;
+  width: 100%;
+}
+.cards:hover.cards i{
+  opacity: 1;
+}
+
+.pass{
+  position: absolute;
+  bottom: 50%;
+  right: 6px;
+  padding: 13px 16px;
+  background: #A5BE6A;
+  border-radius: 50%; 
+  transition: all linear.4s;
+}
+.cards:hover .pass{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  background: #0E6835;
+}
+.pass p{
+  font-size: 14px;
+}
+.card-bodys{
+  background: #EEEEEE;
+  padding: 20px 0 0 0px;
+}
+.card-text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+.reviews{
+  position: relative;
+}
+.reviews::after {
+  position: absolute;
+  content: '';
+  top: 3px;
+  left: 55%;
+  transform: translateX(-50%);
+  height: 20px;
+  width: 1px;
+  background: #D39C3F;
+}
+.reviews span{
+  color: #D39C3F;
+}
+.card-bodys h5 {
+  color: #444;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+.reviews b{
+  color: #444;
+  font-size: 12px;
+  font-weight: 300;
+}
+.cards .card-bottom{
+  background: #A5BE6A;
+  border-radius: 20px;
+  transition: all linear.4s;
+}
+.cards:hover .card-bottom{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  background: #0E6835;
+}
+.card-bottom-text{
+  padding: 5px;
+  position: relative;
+}
+.card-bottom-text::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -14px;
+  width: 1px;
+  height: 55px;
+  background: #ffff;
+}
+.card-bottom-text h6{
+  font-size: 13px;
+  font-weight: 600;
+}
+.card-bottom-text b{
+  font-size: 13px;
+  font-weight: 400;
+  color:#fff;
+  display: block;
+}
+/*====================== Information Part Start ====================*/
+#info{
+  padding: 80px 0;
+}
+.info-img{
+  position: relative;
+  margin-top: 50px;
+}
+.overlay{
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  transition: all linear.4s;
+  opacity: 0;
+  padding: 10px;
+  text-align: center;
+}
+.info-img:hover .overlay{
+  opacity: 1;
+  top: 0;
+}
+.overlay-text{
+  border-top:3px solid #A5BE6A;
+  border-bottom:3px solid #A5BE6A;
+}
+.overlay-text::after {
+  position: absolute;
+  content: '';
+  top: 42px;
+  left: 10px;
+  width: 3px;
+  height: 75%;
+  background: #A5BE6A;
+  transition: all linear.4s;
+}
+.overlay:hover .overlay-text::after {
+  top: 12px;
+  left: 10px;
+  width: 3px;
+  height: 94%;
+  background: #A5BE6A;
+}
+.overlay-text::before {
+  position: absolute;
+  content: '';
+  top: 52px;
+  right: 10px;
+  width: 3px;
+  height: 72%;
+  transition: all linear.4s;
+  background: #A5BE6A;
+}
+.overlay:hover .overlay-text::before {
+  top: 12px;
+  right: 10px;
+  width: 3px;
+  height: 94%;
+  background: #A5BE6A;
+}
+.overlay .overlay-text h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 50px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #A5BE6A;
+  display: inline-block;
+}
+.overlay .overlay-text h5 {
+  color: #d2d2d2;
+  padding-top: 20px;
+}
+.overlay .overlay-text h6{
+  padding: 0 20px 50px 20px;
+}
+.overlay .info-socal{
+  padding-bottom: 50px;
+}
+.overlay .info-socal i {
+  background: #A5BE6A;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 50%;
+  margin: 0 3px;
+  cursor: pointer;
+  transition: all linear.4s;
+}
+.overlay .info-socal i:hover{
+  background: #0E6835;
+}
+.info-img .info-text {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  width: 50%;
+  height: 20%;
+  background: #A5BE6A;
+  border-radius: 20px;
+  transition: all linear.4s;
+  transform: translateX(-50%);
+}
+.info-text h4 {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.info-text h6 {
+  color: #444;
+  font-size: 14px;
+}
+.info-img:hover .info-text{
+  opacity: 0;
+}
